@@ -1,0 +1,5 @@
+﻿Mods: {
+	InlineWikiLib: {
+		Click: "Drücke {0} um Inline-Wiki zu öffnen"
+	}
+}

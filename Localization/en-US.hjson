@@ -1,0 +1,5 @@
+﻿Mods: {
+	InlineWikiLib: {
+		Click: "Press {0} to open Inline-Wiki"
+	}
+}
