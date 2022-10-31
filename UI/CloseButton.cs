@@ -14,12 +14,12 @@ namespace Combinations.UI
         {
             Width.Set(22f, 0f);
             Height.Set(22f, 0f);
-            Top.Set(2f, 0f);
+            Top.Set(0f, 0f);
         }
 
         public override void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(Texture.Value, new Vector2(Parent.Left.Pixels + Parent.Width.Pixels - 22f - 2f, Parent.Top.Pixels + 2f), Color.White);
+            spriteBatch.Draw(Texture.Value, new Vector2(Parent.Left.Pixels + Parent.Width.Pixels - 22f - 2f, Parent.Top.Pixels), Color.White);
         }
 
         public override void Recalculate()

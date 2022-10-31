@@ -15,6 +15,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Deprecated
 
+## [0.2] - 2022-10-31
+### Changed
+- Font Outlining for better readability
+
 ## [0.1] - 2022-10-26
 ### Added
 - Initial Version

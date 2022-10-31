@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using Terraria;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using ReLogic.Graphics;
 using Terraria.GameContent;
@@ -49,7 +50,7 @@ namespace Combinations.UI
 
         public override void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.DrawString(font, Text, new Vector2(Parent.Left.Pixels + Offset.X, Parent.Top.Pixels + Offset.Y), color, 0f, Vector2.Zero, Scale, SpriteEffects.None, 0f);
+            Utils.DrawBorderString(spriteBatch, Text, new Vector2(Parent.Left.Pixels + Offset.X, Parent.Top.Pixels + Offset.Y), color, Scale);
         }
     }
 }
