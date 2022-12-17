@@ -15,6 +15,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Deprecated
 
+## [0.3] - 2022-12-17
+### Changed
+- getTexturesFromString foreach-loop to for-loop
+
 ## [0.2] - 2022-10-31
 ### Changed
 - Font Outlining for better readability

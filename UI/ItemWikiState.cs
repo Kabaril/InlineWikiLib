@@ -84,8 +84,9 @@ namespace Combinations.UI
         {
             List<InlineTextureUI> textures = new List<InlineTextureUI>();
             MatchCollection matches = Regex.Matches(line, @"\!\[([^[]+)\](t-?\d+)?");
-            foreach(Match match in matches)
+            for (int i = 0; i < matches.Count; i++)
             {
+                Match match = matches[i];
                 int index = line.IndexOf(match.Value);
                 float left = FontAssets.MouseText.Value.MeasureString(line.Substring(0, index)).X * scale;
                 string texture_str = match.Groups[1].Value.Trim();
