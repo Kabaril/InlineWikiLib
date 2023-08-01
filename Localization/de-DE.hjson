@@ -1,5 +1,6 @@
-﻿Mods: {
+Mods: {
 	InlineWikiLib: {
-		Click: "Drücke {0} um Inline-Wiki zu öffnen"
+		Click: Drücke {0} um Inline-Wiki zu öffnen
+		// "Keybinds.Open inline wiki.DisplayName": Open inline wiki
 	}
 }

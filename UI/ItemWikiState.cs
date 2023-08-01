@@ -20,7 +20,7 @@ namespace Combinations.UI
             this.rawText = rawText;
             CompileText(rawText);
             var closeButton = new CloseButton();
-            closeButton.OnClick += CloseButton_OnClick;
+            closeButton.OnLeftClick += CloseButton_OnClick;
             elements.Add(closeButton);
         }
 
